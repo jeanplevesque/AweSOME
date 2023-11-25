@@ -16,7 +16,7 @@ namespace AwesomeAnimation
     {
         public static Animation Load(string nom)
         {
-            FileStream file = new FileStream("Animations/"+ nom + ".aa", FileMode.Open);
+            FileStream file = new FileStream("Data/Animations/"+ nom + ".aa", FileMode.Open);
             BinaryReader reader = new BinaryReader(file);
 
             Animation animation = Animation.Load(reader);
@@ -28,7 +28,7 @@ namespace AwesomeAnimation
         }
         public static void Save(Animation animation)
         {
-            FileStream file = new FileStream("Animations/" + animation.Nom + ".aa00", FileMode.Create);
+            FileStream file = new FileStream("Data/Animations/" + animation.Nom + ".aa00", FileMode.Create);
             BinaryWriter writer = new BinaryWriter(file);
 
             animation.Save(writer);

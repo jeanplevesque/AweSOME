@@ -841,14 +841,14 @@ namespace AweSOME
                 base.Draw(spriteBatch);
             }
 
-            foreach (Droite s in ListeDroites)
-            {
-                s.DrawDroite(spriteBatch);
-            }
-            foreach (Sommet s in ListeSommets)
-            {
-                s.Draw(spriteBatch);
-            }
+            //foreach (Droite s in ListeDroites)
+            //{
+            //    s.DrawDroite(spriteBatch);
+            //}
+            //foreach (Sommet s in ListeSommets)
+            //{
+            //    s.Draw(spriteBatch);
+            //}
         }
     }
 }

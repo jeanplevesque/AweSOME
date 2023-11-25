@@ -35,7 +35,7 @@ namespace AweSOME
         
         public static ArmeLancée GénérerArmeLancéeTexte(string nom, float grosseur)
         {
-            StreamReader reader = new StreamReader("ArmesLancées/" + nom + ".al");
+            StreamReader reader = new StreamReader("Data/ArmesLancées/" + nom + ".al");
             ArmeLancée arme = LoadArmeLancéeTexte(reader, grosseur);
             reader.Close();
             return arme;
@@ -68,7 +68,7 @@ namespace AweSOME
         }
         public static Shotgun GénérerShotgunTexte(string nom, float grosseur)
         {
-            StreamReader reader = new StreamReader("Fusils/" + nom + ".Gun");
+            StreamReader reader = new StreamReader("Data/Fusils/" + nom + ".Gun");
             Shotgun fusil = LoadShotGunTexte(reader, grosseur);
             reader.Close();
             return fusil;
@@ -115,7 +115,7 @@ namespace AweSOME
         }
         public static Fusil GénérerFusilTexte(string nom, float grosseur)
         {
-            StreamReader reader = new StreamReader("Fusils/" + nom + ".Gun");
+            StreamReader reader = new StreamReader("Data/Fusils/" + nom + ".Gun");
             Fusil fusil = LoadFusilTexte(reader, grosseur);
             reader.Close();
             return fusil;
@@ -155,7 +155,7 @@ namespace AweSOME
 
         public static BlocGun GénérerBlocGunTexte(string nom, float grosseur)
         {
-            StreamReader reader = new StreamReader("Fusils/" + nom + ".Gun");
+            StreamReader reader = new StreamReader("Data/Fusils/" + nom + ".Gun");
             BlocGun fusil = LoadBlocGunTexte(reader, grosseur);
             reader.Close();
             return fusil;

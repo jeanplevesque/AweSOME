@@ -1,0 +1,9 @@
+Pomegranate
+Armes/Pomegranate
+0
+175
+70
+240
+8
+30
+30

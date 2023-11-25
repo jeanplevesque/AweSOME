@@ -11,8 +11,98 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Data\Animations\Course.aa" />
+    <None Remove="Data\Animations\defaut.aa" />
+    <None Remove="Data\Animations\Lancer.aa" />
+    <None Remove="Data\Animations\Marche.aa" />
+    <None Remove="Data\Animations\Melee.aa" />
+    <None Remove="Data\Animations\Melee2.aa" />
+    <None Remove="Data\Animations\MeleeBas.aa" />
+    <None Remove="Data\Animations\Rampe.aa" />
+    <None Remove="Data\Animations\Recharge.aa" />
+    <None Remove="Data\Animations\RechargeBas.aa" />
+    <None Remove="Data\Animations\Spawn.aa" />
+    <None Remove="Data\Animations\Zombie0.aa" />
+    <None Remove="Data\Animations\Zombie1.aa" />
+    <None Remove="Data\ArmesLancées\Orange.al" />
+    <None Remove="Data\ArmesLancées\Pear.al" />
+    <None Remove="Data\ArmesLancées\Pomegranate - Copie.al" />
+    <None Remove="Data\ArmesLancées\Pomegranate.al" />
+    <None Remove="Data\defaut.aa" />
+    <None Remove="Data\Fusils\Blok.Gun" />
+    <None Remove="Data\Fusils\Chat.Gun" />
+    <None Remove="Data\Fusils\GoldM1014.Gun" />
+    <None Remove="Data\Fusils\Plastic M4.Gun" />
     <None Remove="Icon.ico" />
     <None Remove="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Animations\Course.aa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Animations\defaut.aa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Animations\Lancer.aa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Animations\Marche.aa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Animations\Melee.aa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Animations\Melee2.aa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Animations\MeleeBas.aa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Animations\Rampe.aa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Animations\Recharge.aa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Animations\RechargeBas.aa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Animations\Spawn.aa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Animations\Zombie0.aa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Animations\Zombie1.aa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ArmesLancées\Orange.al">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ArmesLancées\Pear.al">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ArmesLancées\Pomegranate - Copie.al">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ArmesLancées\Pomegranate.al">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\defaut.aa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Fusils\Blok.Gun">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Fusils\Chat.Gun">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Fusils\GoldM1014.Gun">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Fusils\Plastic M4.Gun">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Icon.ico" />
