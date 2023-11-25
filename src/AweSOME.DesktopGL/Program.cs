@@ -1,3 +1,3 @@
 ﻿
-using var game = new AweSOME.DesktopGL.Game1();
+using var game = new AweSOME.MoteurJeu();
 game.Run();
