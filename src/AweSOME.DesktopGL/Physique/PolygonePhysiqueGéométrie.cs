@@ -55,6 +55,9 @@ namespace AweSOME
 
         public void CréerOmbre(byte darkness)
         {
+            // TODO: Fix shadows. They cast light instead of casting shadows.
+            return;
+
             Ombre = ShadowHull.CreateRectangle(Dimensions);
             Ombre.Color.A = darkness;
             MoteurJeu.EnginKrypton.Hulls.Add(Ombre);
