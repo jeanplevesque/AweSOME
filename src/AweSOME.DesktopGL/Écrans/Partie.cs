@@ -80,7 +80,7 @@ namespace AweSOME
                 Explosion explosion = new Explosion(GestionIntrants.PositionSourisCaméra, 150, 150 * 150, 150, 10, null, true);
                 explosion.Affecter();
             }
-            //if (GestionIntrants.EstNouvelleToucheEnfoncée(Keys.Z)) { GestionNiveaux.NiveauActif.AjouterBloc(GestionIntrants.PositionSourisCaméra, MatérielPolygone.Métal); }
+            if (GestionIntrants.EstNouvelleToucheEnfoncée(Keys.Z)) { GestionNiveaux.NiveauActif.AjouterBloc(GestionIntrants.PositionSourisCaméra, MatérielPolygone.Métal); }
             //if (GestionIntrants.EstNouvelleToucheEnfoncée(Keys.X)) { GestionNiveaux.NiveauActif.DétruireBloc(GestionIntrants.PositionSourisCaméra); }
             if (GestionIntrants.EstToucheEnfoncée(Keys.T)) { GestionNiveaux.NiveauActif.CréerTunel(GestionIntrants.PositionSourisCaméra); }
             if (GestionIntrants.EstNouvelleToucheEnfoncée(Keys.G)) { GestionNiveaux.NiveauActif.ListePersonnages.Add(new Zombie(GestionSpawn.GetRandomSpawnLoinDe(GestionNiveaux.NiveauActif.Joueur.TuileActive), Bloc.DIMENSION_BLOC)); }

@@ -105,7 +105,7 @@ namespace AweSOME
         public override void Draw(SpriteBatch spriteBatch)
         {
             base.Draw(spriteBatch);
-            spriteBatch.DrawString(BanqueContent.Font1, "Temps: " + TicsRestants.ToString(), Position - Vector2.UnitY * 30, Color.White);
+            spriteBatch.DrawString(BanqueContent.Font1, TicsRestants.ToString(), Position - Vector2.UnitY * 30, Color.White);
         }
     }
 }

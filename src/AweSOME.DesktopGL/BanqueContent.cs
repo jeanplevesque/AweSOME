@@ -11,6 +11,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Net;
 using Microsoft.Xna.Framework.Storage;
+using System.Globalization;
 
 
 namespace AweSOME
@@ -62,7 +63,7 @@ namespace AweSOME
         }
         public static Vector2 LoadVector2(StreamReader reader)
         {
-            return new Vector2(float.Parse(reader.ReadLine()), float.Parse(reader.ReadLine()));
+            return new Vector2(float.Parse(reader.ReadLine(), CultureInfo.InvariantCulture), float.Parse(reader.ReadLine(), CultureInfo.InvariantCulture));
         }
     }
 }
